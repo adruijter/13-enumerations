@@ -35,8 +35,26 @@ namespace Menuprogram
                     rightKey = false;
                 }
             } while (rightKey);
-            Console.WriteLine("Er is op 1, 2 of 3 gedrukt");
-
+            //Console.WriteLine("Er is op 1, 2 of 3 gedrukt");
+            if (cki.Key == ConsoleKey.D1)
+            {
+                Console.Clear();
+                Console.WriteLine("Er is op de 1 knop gedrukt");
+            }
+            else if (cki.Key == ConsoleKey.D2)
+            {
+                Console.Clear();
+                Console.WriteLine("Er is op de 2 knop gedrukt");
+            }
+            else if (cki.Key == ConsoleKey.D3)
+            {
+                Console.Clear();
+                Console.WriteLine("Er is op de 3 knop gedrukt");
+            }
+            else
+            {
+                Console.WriteLine("Er is op een onbekende knop gedrukt");
+            }
             Console.ReadLine();
         }
     }
