@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13-enumerations", "13-enume
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "menu", "menu\menu.csproj", "{2062DB24-FD17-450B-B693-9CCF61114188}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Menuprogram", "Menuprogram\Menuprogram.csproj", "{899E83DD-6397-4934-9FB3-506FB83F942E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -19,6 +21,10 @@ Global
 		{2062DB24-FD17-450B-B693-9CCF61114188}.Debug|x86.Build.0 = Debug|x86
 		{2062DB24-FD17-450B-B693-9CCF61114188}.Release|x86.ActiveCfg = Release|x86
 		{2062DB24-FD17-450B-B693-9CCF61114188}.Release|x86.Build.0 = Release|x86
+		{899E83DD-6397-4934-9FB3-506FB83F942E}.Debug|x86.ActiveCfg = Debug|x86
+		{899E83DD-6397-4934-9FB3-506FB83F942E}.Debug|x86.Build.0 = Debug|x86
+		{899E83DD-6397-4934-9FB3-506FB83F942E}.Release|x86.ActiveCfg = Release|x86
+		{899E83DD-6397-4934-9FB3-506FB83F942E}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
