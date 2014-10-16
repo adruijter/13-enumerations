@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13-enumerations", "13-enumerations\13-enumerations.csproj", "{F39C5AE8-6F8F-4B6E-9386-BDA23D156A0D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "menu", "menu\menu.csproj", "{2062DB24-FD17-450B-B693-9CCF61114188}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -13,6 +15,10 @@ Global
 		{F39C5AE8-6F8F-4B6E-9386-BDA23D156A0D}.Debug|x86.Build.0 = Debug|x86
 		{F39C5AE8-6F8F-4B6E-9386-BDA23D156A0D}.Release|x86.ActiveCfg = Release|x86
 		{F39C5AE8-6F8F-4B6E-9386-BDA23D156A0D}.Release|x86.Build.0 = Release|x86
+		{2062DB24-FD17-450B-B693-9CCF61114188}.Debug|x86.ActiveCfg = Debug|x86
+		{2062DB24-FD17-450B-B693-9CCF61114188}.Debug|x86.Build.0 = Debug|x86
+		{2062DB24-FD17-450B-B693-9CCF61114188}.Release|x86.ActiveCfg = Release|x86
+		{2062DB24-FD17-450B-B693-9CCF61114188}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

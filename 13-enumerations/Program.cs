@@ -10,11 +10,8 @@ namespace _13_enumerations
                                 juli = 7, august = 10, september = 9, oktober = 12,
                                     november = 11, december = 2 }
     */
-    public enum MonthsOfYear
-    {
-        januari, februari, march, april, may, june, juli, august, september, oktober,
-        november, december
-    }
+    public enum MonthsOfYear  { januari, februari, march, april, may, june, juli,
+                                    august, september, oktober, november, december }
     
     class Program
     {
@@ -43,10 +40,12 @@ namespace _13_enumerations
 
                 if (cki.Key == ConsoleKey.UpArrow)
                 {
+                    // Maak hier een begrenzing
                     huidigeMaand++;
                 }
                 else if (cki.Key == ConsoleKey.DownArrow)
                 {
+                    // Maak hier een begrenzing
                     huidigeMaand--;
                 }
 
