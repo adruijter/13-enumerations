@@ -40,12 +40,14 @@ namespace _13_enumerations
 
                 if (cki.Key == ConsoleKey.UpArrow)
                 {
-                    // Maak hier een begrenzing
-                    huidigeMaand++;
+                    if (Convert.ToInt32(huidigeMaand) < 11)
+                    {
+                        huidigeMaand++;
+                    }
                 }
                 else if (cki.Key == ConsoleKey.DownArrow)
                 {
-                    // Maak hier een begrenzing
+                    if (Convert.ToInt32(huidigeMaand) > 0)
                     huidigeMaand--;
                 }
 
